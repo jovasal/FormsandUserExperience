@@ -928,11 +928,12 @@ body.active {
   display: flex;
   flex-direction: column;
   width: 375px;
-  height: 800px;
+  height: 779px;
   margin: 0 auto;
-  background: #6070ff url(../images/header.png);
-  border-top-right-radius: 80px;
+  background: #6070ff url(../images/header1.png);
+  border-top-left-radius: 80px;
   align-content: space-between;
+  list-style: none;
 }
 
 .contain {
@@ -943,16 +944,18 @@ body.active {
   padding: 0;
   gap: 12px;
   width: 375px;
-  height: 779px;
+  height: 750px;
   top: 103px;
   margin-top: -40px;
   margin-left: -24px;
   box-sizing: border-box;
+  list-style: none;
 }
 
 .contact {
   margin: 103px 24px 0 24px;
   border-radius: 50px 0 0 0;
+  list-style: none;
 }
 
 h2 {
@@ -960,6 +963,7 @@ h2 {
   color: white;
   margin-top: 40px;
   text-align: center;
+  list-style: none;
 }
 
 .contact p {
@@ -968,6 +972,7 @@ h2 {
   margin-left: 10px;
   margin-right: 10px;
   text-align: center;
+  list-style: none;
 }
 
 .form {
@@ -976,6 +981,7 @@ h2 {
   margin-top: 52px;
   margin-bottom: 0;
   gap: 20px;
+  list-style: none;
 }
 
 textarea {
@@ -984,6 +990,7 @@ textarea {
   height: 170px;
   padding: 10px;
   border: 1px solid hsl(198, 16%, 84%);
+  list-style: none;
 }
 
 .types {
@@ -993,6 +1000,7 @@ textarea {
   font-size: 17px;
   line-height: 20px;
   font-style: normal;
+  list-style: none;
 }
 
 .form-group input {
@@ -1003,6 +1011,7 @@ textarea {
   height: 48px;
   margin-bottom: 12px;
   padding: 10px;
+  list-style: none;
 }
 
 .form-group textarea {
@@ -1013,6 +1022,7 @@ textarea {
   height: 140px;
   margin-bottom: 4px;
   padding: 10px;
+  list-style: none;
 }
 
 .form-group .btn-input {
@@ -1030,28 +1040,33 @@ textarea {
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
+  list-style: none;
 }
 
 .form-group .btn-input:hover {
   background-color: #6070ff;
   color: #fff;
   letter-spacing: 0.03em;
+  list-style: none;
 }
 
 .form-group .btn-input:active {
   background-color: #2230d2;
   color: #fff;
   letter-spacing: 0.03em;
+  list-style: none;
 }
 
 .form-group .btn-input:focus {
   background-color: #13141a;
   color: #fff;
   letter-spacing: 0.03em;
+  list-style: none;
 }
 
 .border-line {
   border-bottom: 8px solid #0d151e;
   margin: 32px 120px 12px 121px;
   border-radius: 10px;
+  list-style: none;
 }
