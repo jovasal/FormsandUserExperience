@@ -935,7 +935,7 @@ body.active {
   align-content: space-between;
 }
 
-contain {
+.contain {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -966,7 +966,7 @@ h2 {
   color: #fff;
 }
 
-p {
+.contact p {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
