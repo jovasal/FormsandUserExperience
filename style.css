@@ -931,7 +931,7 @@ body.active {
   height: 779px;
   margin: 0 auto;
   background: #6070ff url(../images/header.png);
-  border-bottom-left-radius: 80px;
+  border-top-right-radius: 80px;
   align-content: space-between;
 }
 
