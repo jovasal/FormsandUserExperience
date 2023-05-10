@@ -928,7 +928,7 @@ body.active {
   display: flex;
   flex-direction: column;
   width: 375px;
-  height: 779px;
+  height: 879px;
   margin: 0 auto;
   background: #6070ff url(../images/header.png);
   border-top-right-radius: 80px;
@@ -938,8 +938,8 @@ body.active {
 .contain {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
+  align-items: flex-end;
+  justify-content:center;
   padding: 0;
   gap: 12px;
   width: 375px;
