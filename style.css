@@ -929,7 +929,6 @@ body.active {
   flex-direction: column;
   width: 375px;
   height: 779px;
-  background: url(/./images/header.png);
   margin: 0 auto;
   background: #6070ff url(../images/header.png);
   border-bottom-left-radius: 80px;
@@ -1045,8 +1044,6 @@ textarea {
 }
 
 .border-line{
-border-bottom: 8px solid #0d151e;
-margin: 32px 120px 12px 121px;
-border-radius: 10px;
-
-}
+  border-bottom: 8px solid #0d151e;
+  margin: 32px 120px 12px 121px;
+  border-radius: 10px;}
