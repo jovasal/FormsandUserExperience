@@ -11,7 +11,8 @@
 
 <body>
 
-    <section class="headline">
+
+  <section class="headline">
     <div id="head-container">
       <h1 class="head">
         I'm John, <br />
@@ -180,12 +181,15 @@
         </div>
       </div>
     </section>
-    <section class="works-card">
+
+
+    <section class="works-card-tonic">
       <img class="snapshort" src="./images/snap4.png" alt="snapshoot" />
       <div class="left-block">
         <div class="first-container">
           <h2 class="newme-title">
             Multi-Post Stories<br />
+
           </h2>
           <div class="event2-tonic">
             <div class="word">
@@ -216,14 +220,13 @@
             javascript
           </li>
         </ul>
+
+        <div class="newmes">
+          <button type="submit" class="go-newmes">See projects</button>
+        </div>
       </div>
     </section>
-      <div class="newmes">
-        <button type="submit" class="go-newmes">See projects</button>
-      </div>
-    </div>
-  </section>
-</main>
+  </main>
   <section class="contact-me">
     <div class="head-section-co">
       <div id="head-container-co">
@@ -269,62 +272,76 @@
         <div class="new-code">
           <button type="submit" class="go-newmes">My resume</button>
         </div>
-        
-        <ul class="skill">
-          <li class="event12">
-            <li class="event7">
+
+        <div class="skill">
+          <div class="event12">
+            <div class="event7">
               <h3 class="languages">Languages</h3>
               <button type="submit" class="dropdown">
                 <img src="./images/Icon-Chevron-Down-Larger.png" alt="" />
               </button>
-            </li>            
-              <li class="language-list">
-                <ul>
-                  <li class="JavaScript1">
-                    <div class="lang">
-                      <img src="./images/Ellipse-1.png" alt="" />
-                      <p>JavaSript</p>
-                    </div>
-                  </li>
-                  <li class="HTML1">
-                    <div class="lang">
-                      <img src="./images/Ellipse-2.png" alt="" />
-                      <p>HTML</p>
-                    </div>
-                  </li>
-                  <li class="CSS1">
-                    <div class="lang">
-                      <img src="./images/Ellipse-3.png" alt="" />
-                      <p>CSS</p>
-                    </div>
-                  </li>
-                </ul>
-              </li>	            
-          </li>
-          <ul class="event-skill">
-            <li class="event18">
+            </div>
+            <ul class="language-list">
+              <li class="event9">
+                <div class="lang">
+                  <img src="./images/Ellipse-1.png" alt="" />
+                  <p>JavaSript</p>
+                </div>
+              </li>
+              <li class="event10">
+                <div class="lang">
+                  <img src="./images/Ellipse-2.png" alt="" />
+                  <p>HTML</p>
+                </div>
+              </li>
+              <li class="event11">
+                <div class="lang">
+                  <img src="./images/Ellipse-3.png" alt="" />
+                  <p>CSS</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="event-skill">
+            <div class="event18">
               <h3>Frameworks</h3>
               <button type="submit" class="dropdown">
                 <img src="./images/Disabled.png" alt="" />
               </button>
-            </li>
+            </div>
             <img src="./images/Separator-Bottom.png" alt="" class="separator" />
-            <li class="event18">
+            <div class="event18">
               <h3>Skills</h3>
               <button type="submit" class="dropdown">
                 <img src="./images/Disabled.png" alt="" />
               </button>
-            </li>
+            </div>
             <img src="./images/Separator-Bottom.png" alt="" class="separator" />
-          </ul>
-        </ul>
-        
-        </ul>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-</div>
+    <section>
+      <ul class="headform">
+        <li class="contact-John">
+          <h2>Contact Me</h2>
+          <p>
+            If you have an application you are interested in developing, a feature
+            that you need built or a project that needs coding. I’d love to help
+            with it
+          </p>
+          <form action="https://formspree.io/f/xayzkwne" method="post">
+            <input type="text" id="username" required maxlength="30" placeholder="Text input" name="userName" />
+            <input type="email" id="email" required placeholder="jovasal@gmail.com" name="userEmail" />
+            <textarea name="details" id="detail" placeholder="Write your message here" required maxlength="500"></textarea>
+            <button class="form-button go-newmes" type="submit"> Get in touch </button>
+          </form>
+          <hr class="rounded" />
+        </li>
+      </ul>
+     </section>
+    
 
-</section>
 </body>
+
 </html>
